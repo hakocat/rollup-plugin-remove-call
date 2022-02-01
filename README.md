@@ -14,7 +14,6 @@ The following example removes
 - `a?.b?.c(...)` and `a.b.c(...)`
 
 ```js
-import { rollup } from "rollup";
 import { removeCall } from 'rollup-plugin-remove-call';
 
 export default {
